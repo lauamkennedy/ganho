@@ -1,0 +1,16 @@
+banco -> meus_ganhos
+
+ganhos ->
+     CREATE TABLE ganhos(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        valor DECIMAL(10,2) NOT NULL,
+        data DATE NOT NULL
+    )
+
+
+gastos ->
+     CREATE TABLE gastos(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        valor DECIMAL(10,2) NOT NULL,
+        data DATE NOT NULL
+    )
